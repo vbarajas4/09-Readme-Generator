@@ -13,6 +13,8 @@ SO THAT I can quickly create a professional README for a new project
 
 ## Project Outline
 
+This application will help a user generate a professional Readme file once a series of questions have been prompted to be answered, that will get inserted into their repository files.
+
 ```
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
