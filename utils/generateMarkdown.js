@@ -67,7 +67,7 @@ ${data.description}
  - [Questions](#questions)
 
 ## Installation
-${data.install}
+${data.installation}
 
 ##Usage
 ${data.usage}
@@ -80,7 +80,7 @@ ${data.contributing}
 
 ## License
 ![badge](https://img.shields.io/badge/license-${data.license}-yellow)
-### This application is licensed under the [${data.license}](${renderLisenseLink(data.license)}) license.
+### This application is licensed under the [${data.license}](${renderLicenseLink(data.license)}) license.
 ${renderLicenseSection(data.license)}
 
 ##Questions
