@@ -54,6 +54,9 @@ THEN I am taken to the corresponding section of the README
 - node.js
 - npm inquirer package installation
 
+## Contact for Questions
+
+Email: vbarajas4@gmail.com
 
 ## Review
 
