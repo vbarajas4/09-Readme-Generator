@@ -1,10 +1,10 @@
-# 09-README-GENERATOR
+# 09-Readme-Generator
 
 [![badge](https://img.shields.io/badge/license-MIT-yellow.svg)](#license)
 
 
 ## Description
-This application will help the user be able to generate a professional Readme file that they will be able to use for their projects.
+This application will help the user be able to generate a professional Readme file, that they will be able to use for their projects.
 
 ## Table of Contents
  - [Installation](#installation)
@@ -15,16 +15,16 @@ This application will help the user be able to generate a professional Readme fi
  - [Questions](#questions)
 
 ## Installation
-For this application you will need VS code, node.js, and npm inquirer package.
+For this application you will need VS Code, node.js, and npm inquirer package.
 
 ## Usage
-The user will be prompted with a series of questions for the user to answer. Once all the questions have been answer, the application will then generate a Readme file for the user and inserted into his repository files.
+Using the command node index.js in your terminal, the user will be prompted with a series of questions for the user to answer. Once all the questions have been answered, the application will generate a Readme file.
 
 ## Tests
-No test are included at this moment, but a video link will be provided.
+No test are included at this moment but a video link will be provided.
 
 ## Contributing
-This readme generator is not accepting contributors at this moment. 
+This project is not accepting contributors at this moment.
 
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-yellow)
