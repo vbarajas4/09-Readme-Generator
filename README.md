@@ -1,6 +1,6 @@
 # 09-Readme-Generator
 
-[Readme Application Video]()
+[Readme Application Video](https://drive.google.com/file/d/1Tk6wROVgmy6BrzfjvElCg-t6m6tWlKHQ/view)
 
 
 ## User Story
@@ -43,12 +43,11 @@ THEN I am taken to the corresponding section of the README
 
 Due to a limit of only 5 minutes in screencastify, I had to go through the prompts ahead of time as it was taking longer than 5 minutes.
 
-[Readme Generator Video Link](https://drive.google.com/file/d/1Tk6wROVgmy6BrzfjvElCg-t6m6tWlKHQ/view)
 
 ## Important Links
 
  [GitHub Repository Link](https://github.com/vbarajas4/09-Readme-Generator)
- [Readme Generator Video Link]()
+ [Readme Generator Video Link](https://drive.google.com/file/d/1Tk6wROVgmy6BrzfjvElCg-t6m6tWlKHQ/view)
  
 ## Framework and Technologies
 
