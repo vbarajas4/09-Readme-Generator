@@ -62,4 +62,3 @@ inquirer.prompt([
     console.log(response)
     fs.writeFile('ReadmeG.md', generateMarkdown(response), (err) => err ? console.log(err): console.log('success'));
 })
-
