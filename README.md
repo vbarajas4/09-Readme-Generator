@@ -46,8 +46,8 @@ Due to a limit of only 5 minutes in screencastify, I had to go through the promp
 
 ## Important Links
 
- [GitHub Repository Link](https://github.com/vbarajas4/09-Readme-Generator)
- [Readme Generator Video Link](https://drive.google.com/file/d/1Tk6wROVgmy6BrzfjvElCg-t6m6tWlKHQ/view)
+ - [GitHub Repository Link](https://github.com/vbarajas4/09-Readme-Generator)
+ - [Readme Generator Video Link](https://drive.google.com/file/d/1Tk6wROVgmy6BrzfjvElCg-t6m6tWlKHQ/view)
  
 ## Framework and Technologies
 
