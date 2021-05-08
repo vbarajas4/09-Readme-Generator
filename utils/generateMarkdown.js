@@ -8,19 +8,19 @@
 
 function renderLicenseLink(license) {
     if(license === "MIT") {
-        return `[MIT License](https://opensource.org/licenses/MIT)`
+        return `[Link ](https://opensource.org/licenses/MIT)`
    }
    else if(license === "Apache 2.0") {
-        return `[Apache 2.0 License](https://choosealicense.com/licenses/apache-2.0/)`
+        return `[Link](https://choosealicense.com/licenses/apache-2.0/)`
    }
    else if(license === "BSD3") {
-        return `[BDS3 License](https://choosealicense.com/licenses/bsd-3-clause/)`
+        return `[Link](https://choosealicense.com/licenses/bsd-3-clause/)`
    }
    else if(license === "ISC") {
-        return `[ISC License](https://choosealicense.com/licenses/isc/)`
+        return `[Link](https://choosealicense.com/licenses/isc/)`
    }
    else if(license === "Unlicensed") {
-        return `[Unlicensed](https://choosealicense.com/licenses/unlicense/)`
+        return `[Link](https://choosealicense.com/licenses/unlicense/)`
    }
 }
   
