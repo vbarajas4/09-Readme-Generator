@@ -1,15 +1,18 @@
 const inquirer = require('inquirer');
+const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
+//Prompting the user question to generate the README.md
 inquirer.prompt([
     {
         type: 'input',
-        name: 'readmeTitle',
+        name: 'title',
         message: 'What is the title of your project?',
     },
     {
         type: 'input',
-        name: 'userStory',
-        message: 'Whats is your user story?',
+        name: 'installation',
+        message: 'What installations are needed for this application?',
     },
     {
         type: 'input',
@@ -18,8 +21,18 @@ inquirer.prompt([
     },
     {
         type: 'input',
-        name: '',
-        message: ''
+        name: 'usage',
+        message: 'How would a user use this application?',
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'Is there a test included?',
+    },
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'Explain how users can contribute to your project (if necessary).',
     },
     {
         type: 'list',
@@ -27,28 +40,15 @@ inquirer.prompt([
         message: 'Chose the appropriate license for this project: ',
         choices: [
             "MIT",
-            "Mozilla",
-            "Open"
+            "Apache 2.0",
+            "BSD3",
+            "ISC",
+            "Unlicensed"      
         ]
     },
     {
         type: 'input',
-        name: '',
-        message: '',
-    },
-    {
-        type: 'input',
-        name: 'Deployed',
-        message: 'Please enter the deployed Project URL ',
-    },
-    {
-        type: 'input',
-        name: 'repository',
-        message: 'Please enter the Repository URL'
-    },
-    {
-        type: 'input',
-        name: 'username',
+        name: 'github',
         message: 'Please enter your GitHub username: '
     },
     {
@@ -58,6 +58,8 @@ inquirer.prompt([
     }
 ])
 
-.then ()
+.then((response) => {
+    console.log(response)
+    fs.writeFile('ReadmeG.md', generateMarkdown(response), (err) => err ? console.log(err): console.log('success'));
+})
 
-fs.writefile ()
