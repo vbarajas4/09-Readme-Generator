@@ -17,20 +17,20 @@ This application will help the user be able to generate a professional Readme fi
 ## Installation
 For this application you will need VS code, node.js, and npm inquirer package.
 
-##Usage
+## Usage
 The user will be prompted with a series of questions for the user to answer. Once all the questions have been answer, the application will then generate a Readme file for the user and inserted into his repository files.
 
-##Tests
+## Tests
 No test are included at this moment, but a video link will be provided.
 
-##Contributing
+## Contributing
 This readme generator is not accepting contributors at this moment. 
 
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-yellow)
-### This application is licensed under the [MIT]([Link ](https://opensource.org/licenses/MIT)) license.
+##### This application is licensed under the [MIT]([Link ](https://opensource.org/licenses/MIT)) license.
 A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
 
-##Questions
+## Questions
  * GitHub: [vbarajas4](https://github.com/vbarajas4)
  * Email: [vbarajas4@gmail.com](mailto:vbarajas4@gmail.com)

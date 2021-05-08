@@ -69,21 +69,21 @@ ${data.description}
 ## Installation
 ${data.installation}
 
-##Usage
+## Usage
 ${data.usage}
 
-##Tests
+## Tests
 ${data.test}
 
-##Contributing
+## Contributing
 ${data.contributing}
 
 ## License
 ![badge](https://img.shields.io/badge/license-${data.license}-yellow)
-### This application is licensed under the [${data.license}](${renderLicenseLink(data.license)}) license.
+##### This application is licensed under the [${data.license}](${renderLicenseLink(data.license)}) license.
 ${renderLicenseSection(data.license)}
 
-##Questions
+## Questions
  * GitHub: [${data.github}](https://github.com/${data.github})
  * Email: [${data.email}](mailto:${data.email})
 `;
