@@ -1,34 +1,20 @@
 # 09-Readme-Generator
-# 09 Node.js Homework: Professional README Generator
 
-## Your Task
-
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
-
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
-
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
-
-The application will be invoked by using the following command:
-
-```bash
-node index.js
-```
 
 Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
 
 
 ## User Story
 
-```md
+```
 AS A developer
 I WANT a README generator
 SO THAT I can quickly create a professional README for a new project
 ```
 
-## Acceptance Criteria
+## Project Outline
 
-```md
+```
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -46,55 +32,28 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
 
-## Getting Started
+## Screenshots of Application
 
-Here are some guidelines to help you get started:
+<img width="1504" alt="README-Generator1" src="https://user-images.githubusercontent.com/79430431/117536837-3c8f5d00-afb2-11eb-81d8-1d6608aae58b.png">
 
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
+<img width="1610" alt="README-Generator2" src="https://user-images.githubusercontent.com/79430431/117536860-5cbf1c00-afb2-11eb-96e7-24f318714ec6.png">
 
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
+<img width="1704" alt="Readme-Generator3" src="https://user-images.githubusercontent.com/79430431/117537071-95abc080-afb3-11eb-901b-4cd37930884c.png">
 
 * Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
 
-* Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
 
-## Grading Requirements
 
-This homework is graded based on the following criteria: 
+## Important Links
 
-### Deliverables: 20%
+ [GitHub Repository Link](https://github.com/vbarajas4/09-Readme-Generator)
+ [Readme Generator Video Link]()
+ 
+## Framework and Technologies
 
-* A sample README generated using the application must be submitted.
-
-* Your GitHub repository containing your application code.
-
-### Walkthrough Video: 27%
-
-* A walkthrough video that demonstrates the functionality of the README generator must be submitted, and a link to the video should be included in your README file.
-
-* The walkthrough video must demonstrate how a user would invoke the application from the command line.
-
-* The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
-
-* The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-	* Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains a high-quality README with description and a link to walkthrough video.
+- VS Code
+- node.js
+- npm inquirer package installation
 
 
 ## Review
@@ -103,10 +62,8 @@ You are required to submit the following for review:
 
 * A walkthrough video demonstrating the functionality of the application.
 
-* A sample README.md file for a project repository generated using your application
+
 
 * The URL of the GitHub repository, with a unique name and a README describing the project
 
----
 
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
